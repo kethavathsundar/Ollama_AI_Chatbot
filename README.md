@@ -1,30 +1,96 @@
-# Ollama_AI_Chatbot
+🚀 Ollama AI Chatbot (LangChain + Streamlit)
 
-An interactive AI chatbot powered by **LangChain, Ollama, and Streamlit**.  
-This project allows users to **ask questions, chat with AI, and get real-time response**.
+## 📌 Overview
 
-## 📌 Features
-✅ **Supports multiple Ollama models** (`llama3`, `mistral`, `gemma`)  
-✅ **Interactive Chat UI** with Streamlit  
-✅ **Multi-turn Conversations** with chat history  
-✅ **Customizable Model Parameters** (`temperature`, `top_k`, `top_p`)  
-✅ **Dark Mode Toggle**  
+This project is an interactive AI chatbot built with LangChain, Streamlit, and Ollama. It allows users to chat with an LLM (Large Language Model) locally while providing an intuitive web interface.
 
----
+- 🔹 Uses LangChain for prompt handling
+- 🔹 Runs Ollama LLM locally (Mistral, Llama3, Gemma, etc.)
+- 🔹 Provides interactive UI with Streamlit
+- 🔹 Adjustable temperature, model, and response settings
 
-## 🚀 **Installation & Setup**
-### 1️⃣ **Clone this repository**
+## 🛠️ Installation & Setup
+
+### 1️⃣ Install Required Dependencies
+
 ```bash
-git clone https://github.com/kethavathsundar/Ollama_AI_Chatbot.git
-cd langchain-ollama-chatbot
+pip install streamlit langchain ollama python-dotenv
 ```
-## install dependencies
+
+### 2️⃣ Install & Run Ollama (Required)
+
+Ollama runs LLMs locally on your machine. Download and install it from:🔗 Ollama Download
+
+After installation, start the Ollama service:
 ```
-pip install -r requirements.txt
+ollama serve
 ```
-## Run the App Locally
+### 3️⃣ Run the Chatbot
+
+Execute the following command:
 ```
 streamlit run test.py
 ```
+### ⚙️ Features
+
+- ✅ Customizable Models: Choose between llama3, mistral, gemma, etc.
+- ✅ Multi-turn Chat: Keeps conversation history
+- ✅ UI Customization: Dark Mode, Adjustable Temperature
+- ✅ Fast Responses: Runs locally for zero-latency AI
+- ✅ Open-Source & Private: No cloud dependency!
+
+## 🖥️ Usage
+
+### 1️⃣ Start the Ollama LLM server:
+```
+ollama serve
+```
+### 2️⃣ Run the chatbot with Streamlit:
+```
+streamlit run test.py
+```
+### 3️⃣ Enter your query in the text box and get responses!
+
+## 📡 Deploy on Streamlit Cloud
+
+Want to host it online? Deploy on Streamlit Cloud!
+
+- Push your code to GitHub
+
+- Go to Streamlit Cloud
+
+- Select your repo & deploy!
+
+### ✅ Your chatbot will be live at:
+
+[https://kethavathsundar-Ollama_AI_Chatbot.streamlit.app/](https://kethavathsundar-Ollama_AI_Chatbot.streamlit.app/)
+
+## 📌 API & Future Enhancements
+
+- 🔹 Voice Support (Speech-to-Text)
+- 🔹 Multi-User Mode (Session-based storage)
+- 🔹 File Uploads (Document Q&A with AI)
+
+## 🤝 Contributing
+
+- Fork the repo & clone it locally
+
+Create a new branch:
+```
+git checkout -b feature-branch
+```
+Make your changes and commit:
+```
+git commit -m "Added new feature"
+```
+Push to GitHub:
+```
+git push origin feature-branch
+```
+Open a Pull Request 🚀
 
 
+## Resources
+- [Ollama Official Site](https://ollama.com/download)
+- [Streamlit Documentation](https://docs.streamlit.io/)
+- [LangChain Docs](https://python.langchain.com/)
