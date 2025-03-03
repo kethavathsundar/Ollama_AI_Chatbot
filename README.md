@@ -51,16 +51,6 @@ streamlit run test.py
 ```
 ### 3️⃣ Enter your query in the text box and get responses!
 
-## 📡 Deploy on Streamlit Cloud
-
-Want to host it online? Deploy on Streamlit Cloud!
-
-- Push your code to GitHub
-
-- Go to Streamlit Cloud
-
-- Select your repo & deploy!
-
 ## 📌 API & Future Enhancements
 
 - 🔹 Voice Support (Speech-to-Text)
