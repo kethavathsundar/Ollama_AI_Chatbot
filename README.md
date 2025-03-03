@@ -61,10 +61,6 @@ Want to host it online? Deploy on Streamlit Cloud!
 
 - Select your repo & deploy!
 
-### ✅ Your chatbot will be live at:
-
-[https://kethavathsundar-Ollama_AI_Chatbot.streamlit.app/](https://kethavathsundar-Ollama_AI_Chatbot.streamlit.app/)
-
 ## 📌 API & Future Enhancements
 
 - 🔹 Voice Support (Speech-to-Text)
